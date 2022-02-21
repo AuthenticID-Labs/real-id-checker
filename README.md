@@ -7,7 +7,7 @@ Contracts and scripts for AuthenticID Labs realid.eth identity products
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-import "./RealIDChecker.sol";
+import "@authenticid-labs/real-id-checker/contracts/RealIDChecker.sol";
 import "hardhat/console.sol";
 
 contract Greeter is RealIDChecker {
